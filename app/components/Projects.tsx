@@ -2,6 +2,16 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
+  const Projects = [
+    {
+      name: "ONS Data Website Interface",
+      front_end: ["React"],
+      back_end: ["Third-Party API"],
+      github: "https://www.githublink.com",
+      demo: "https://www.demosite.com"
+    },
+  ];
+
   return (
     <div id="projects">
       <h2>Projects</h2>
