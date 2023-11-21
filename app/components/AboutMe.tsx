@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div id="about-me">
+    <div id="about-me" className="pb-10">
       <h2>About Me</h2>
       <p>
         Some text about me. What my goals are, strengths, value-add, weaknesses
