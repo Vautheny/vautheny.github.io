@@ -1,14 +1,11 @@
 import React from "react";
+import HeaderButton from "./HeaderButton";
 
 const Header = () => {
   return (
     <div className="flex justify-center">
-      <a className="p-5" href="#about-me">
-        About Me
-      </a>
-      <a className="p-5" href="#projects">
-        Projects
-      </a>
+      <HeaderButton href='#about-me'>About Me</HeaderButton>
+      <HeaderButton href='#projects'>Projects</HeaderButton>
     </div>
   );
 };
