@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex justify-center fixed">
+    <div className="flex justify-center">
       <a className="p-5" href="#about-me">
         About Me
       </a>
