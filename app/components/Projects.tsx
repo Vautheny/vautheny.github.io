@@ -21,7 +21,7 @@ const Projects = () => {
 
   return (
     <div id="projects">
-      <h2 className="w-fill text-center pb-5">Projects</h2>
+      <h2>Projects</h2>
       <div className="grid grid-cols-3 grid-rows-2 grid-flow-row-dense">
         {Projects.map((project)=>{
             return (<ProjectCard project={project}/>)
