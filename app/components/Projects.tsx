@@ -3,25 +3,27 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   const Projects = [
-    {
-      name: "ONS Data Website Interface",
-      front_end: ["React"],
-      back_end: ["Third-Party API"],
-      github: "https://www.githublink.com",
-      demo: "https://www.demosite.com"
-    },
+      {
+        name: "React - ONS Data Website Interface",
+        tags: ["React", "Third-Party API", "JS"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
+      },
+      {
+        name: "Python - Hangman Game",
+        front_end: ["Python", "Firebase"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
+      },
   ];
 
   return (
     <div id="projects">
-      <h2>Projects</h2>
-      <div className="grid grid-flow-col grid-cols-3 grid-rows-2">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+      <h2 className="w-fill text-center">Projects</h2>
+      <div className="grid grid-cols-3 grid-rows-2 grid-flow-row-dense">
+        {Projects.map(()=>{
+            return (<ProjectCard />)
+        })}
       </div>
     </div>
   );
