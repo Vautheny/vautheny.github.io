@@ -45,7 +45,14 @@ const Projects = () => {
         github: "https://www.githublink.com",
         demo: "https://www.demosite.com"
       },      
-  ];
+      {
+        name: "HTML - Responsive Website",
+        short_description: 'Assessment for Army JHUB Module ?. Requiring HTML website with responsive CSS.',
+        tags: ["HTML", "CSS"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
+      },      
+    ];
 
   return (
     <div id="projects">
