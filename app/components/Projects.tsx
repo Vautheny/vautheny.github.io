@@ -55,7 +55,7 @@ const Projects = () => {
     ];
 
   return (
-    <div id="projects">
+    <div id="projects" className="max-w-4xl">
       <h2>Projects</h2>
       <div className="grid grid-cols-4 grid-flow-row-dense">
         {Projects.map((project)=>{
