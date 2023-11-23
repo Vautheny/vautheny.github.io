@@ -54,7 +54,7 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="grid grid-cols-3 grid-rows-2 grid-flow-row-dense">
         {Projects.map((project)=>{
-            return (<ProjectCard project={project}/>)
+            return (<ProjectCard project={project} key={project.name}/>)
         })}
       </div>
     </div>

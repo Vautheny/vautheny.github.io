@@ -5,7 +5,7 @@ const ProjectTagContainer = ({ tags }) => {
   return (
     <div className="flex">
       {tags.map((tag) => {
-        return <ProjectTag tag={tag} />;
+        return <ProjectTag tag={tag} key={tag}/>;
       })}
     </div>
   );
