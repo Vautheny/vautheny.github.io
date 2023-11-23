@@ -16,7 +16,37 @@ const Projects = () => {
         tags: ["Python", "Firebase"],
         github: "https://www.githublink.com",
         demo: "https://www.demosite.com"
+      },  
+      {
+        name: "React - Tic Tac Toe Game",
+        description: 'Project description. Tech stack, learning acheived, challenges, redos, skill developed.',
+        tags: ["React", "Firebase"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
       },
+      {
+        name: "React - Tic Tac Toe Game",
+        description: 'Project description. Tech stack, learning acheived, challenges, redos, skill developed.',
+        tags: ["React", "Firebase"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
+      },
+      {
+        name: "React - Tic Tac Toe Game",
+        description: 'Project description. Tech stack, learning acheived, challenges, redos, skill developed.',
+        tags: ["React", "Firebase"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
+      },
+      {
+        name: "React - Tic Tac Toe Game",
+        description: 'Project description. Tech stack, learning acheived, challenges, redos, skill developed.',
+        tags: ["React", "Firebase"],
+        github: "https://www.githublink.com",
+        demo: "https://www.demosite.com"
+      },
+
+      
   ];
 
   return (
