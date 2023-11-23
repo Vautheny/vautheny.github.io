@@ -3,7 +3,7 @@ import ProjectTag from "./ProjectTag";
 
 const ProjectTagContainer = ({ tags }) => {
   return (
-    <div className="flex">
+    <div className="flex flex-wrap">
       {tags.map((tag) => {
         return <ProjectTag tag={tag} key={tag}/>;
       })}
