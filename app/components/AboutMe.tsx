@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div id="about-me" className="pb-10 max-w-4xl">
+    <div id="about-me" className="m-5 max-w-4xl">
       <h2>About Me</h2>
       <p>
         I'm an Animal Scientist gone Accountant gone Army Soldier, with various
