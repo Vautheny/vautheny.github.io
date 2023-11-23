@@ -7,7 +7,7 @@ import ProjectTagContainer from "./ProjectTagContainer";
 
 const ProjectCard = ({ project }) => {
   return (
-    <Link href="/" className="border-solid border-1 rounded-xl p-3 m-1 shadow-xl hover:shadow-2xl hover:border-gray-200 hover:border-2">
+    <Link href="/" className="border-solid border-1 rounded-xl p-3 m-1 shadow-xl hover:shadow-2xl hover:m-0 hover:border-gray-200 hover:border-2">
       <h3>{project.name}</h3>
       <Image src={stock_image} alt="stock image for project image" className="rounded-xl" />
       <p>{project.short_description}</p>
