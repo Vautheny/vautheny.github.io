@@ -12,7 +12,6 @@ const ProjectCard = ({ project }) => {
       <Image src={stock_image} alt="stock image for project image" className="rounded-xl" />
       <p>{project.description}</p>
       <ProjectTagContainer tags={project.tags} />
-      {/* <div>{project.tags.join(", ")}</div> */}
     </Link>
   );
 };
