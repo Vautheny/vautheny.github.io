@@ -8,6 +8,9 @@ const Socials = () => {
       <Image src={defaultLogo} alt="Twitter" className="w-10 m-1 hover:cursor-pointer hover:w-11 hover:m-0" />
       <Image src={defaultLogo} alt="Github" className="w-10 m-1 hover:cursor-pointer hover:w-11 hover:m-0" />
       <Image src={defaultLogo} alt="LinkedIn" className="w-10 m-1 hover:cursor-pointer hover:w-11 hover:m-0" />
+      <Image src={defaultLogo} alt="Email" className="w-10 m-1 hover:cursor-pointer hover:w-11 hover:m-0" />
+      <Image src={defaultLogo} alt="Phone" className="w-10 m-1 hover:cursor-pointer hover:w-11 hover:m-0" />
+      
     </div>
   );
 };
