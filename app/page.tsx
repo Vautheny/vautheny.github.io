@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center pt-10 pb-24 px-24">
       <AboutMe />
-      <Skills />
+      {/* <Skills /> */}
       <Projects />
     </main>
   )

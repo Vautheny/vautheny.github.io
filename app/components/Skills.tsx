@@ -1,7 +1,7 @@
 import React from "react";
 import Skill from "./Skill";
 
-const Skills = () => {
+const Skills = ({changeFilter}) => {
 
 
   const skills = [
@@ -27,9 +27,8 @@ const Skills = () => {
   ];
   return (
     <div className="flex max-w-4xl flex-wrap m-5">
-      <h2>Skills</h2>
       {skills.map((skill) => {
-        return <Skill skill={skill} />;
+        return <Skill skill={skill} key={skill} changeFilter={changeFilter}/>;
       })}
     </div>
   );
