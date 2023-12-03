@@ -43,7 +43,7 @@ const Projects = () => {
         "Production level project for the RLC Association. Required app to reduce current workload of paper based applications.",
       tags: [
         "React",
-        "Node.js",
+        "NodeJS",
         "Azure",
         "Firebase",
         "AWS",
@@ -84,6 +84,7 @@ const Projects = () => {
   return (
     <div id="projects" className="max-w-4xl m-5">
       <h2>Projects</h2>
+      <p className="text-center">Filter by selecting one or multiple skills. Some projects are live and have links to their hosted demos.</p>
       <Skills changeFilter={changeFilter} />
       <div className="grid grid-cols-4 grid-flow-row-dense">
         {Projects.map((project) => {
